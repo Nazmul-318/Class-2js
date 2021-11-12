@@ -17,9 +17,7 @@ if (gender == 'male')
         console.log(`Be careful you are not enough old to get married yet.Please wait ${21-age} years.`);
     }
 }
-
-
-if (gender == 'female')
+else if (gender == 'female')
 {
     console.log(`Name : ${name} Age : ${age}`);
 
@@ -31,6 +29,9 @@ if (gender == 'female')
     {
         console.log(`Be careful you are not enough old to get married yet.Please wait ${18-age} years.`);
     }
+}
+else{
+    console.log(`Gender not specified`);
 }
 
     
